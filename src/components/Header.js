@@ -1,5 +1,6 @@
 import { create } from '../utils/render'
 
+import Button from '../elements/Button'
 import Input from '../elements/Input'
 import Title from './Title'
 
@@ -23,14 +24,7 @@ const Header = () => {
     [
       Title({ title: "Dondon!" }),
       Input(),
-      create(
-        'button',
-        {
-          class: "main-header__button",
-          onClick: fetchUser
-        },
-        'Fetch User'
-      )
+      Button({ fetchUser })
     ]
   )
 }
