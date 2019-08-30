@@ -1,0 +1,14 @@
+{
+  "name": "cassette",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/donhamiltoniii/cassette.git",
+  "author": "Don Hamilton III <donhamiltoniii@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^1.12.3"
+  },
+  "scripts": {
+    "start": "parcel index.html"
+  }
+}
